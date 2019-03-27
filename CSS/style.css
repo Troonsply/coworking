@@ -3,8 +3,8 @@ header {
     margin:auto;
 }
 img.logo__pic {
-    padding: left;
+    margin: left;
 }
-.company__contacts {
-    padding: right;
+div.company__contacts {
+    margin: right;
 }
