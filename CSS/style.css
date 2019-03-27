@@ -3,3 +3,17 @@ width: 1100px;
 height: 77px;
 background-color: #27273e;
 }
+.logo_pic {
+width: 99px;
+height: 51px;
+}
+.company__contacts {
+width: 198px;
+height: 18px;
+color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 21px;
+font-weight: 700;
+line-height: 54px;
+text-transform: uppercase;
+}
