@@ -1,3 +1,10 @@
 header {
 background-color:#27273e;
+width: 1100px;
+height: 77px;
+}
+.logo__pic {
+width: 99px;
+height: 51px;
+position: absolute;
 }
