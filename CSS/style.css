@@ -2,9 +2,9 @@ header {
 background-color:#27273e;
 margin:auto;
 }
-header.logo__pic {
-padding: right;
+.logo__pic {
+padding: left;
 }
-div.picture_banner {
+.page{
     background-image: url (https://github.com/Troonsply/coworking/blob/master/img/Banner.png);
 }
