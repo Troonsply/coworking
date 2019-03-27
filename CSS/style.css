@@ -2,6 +2,9 @@ header {
 background-color:#27273e;
 margin:auto;
 }
-.logo__pic {
+img.logo__pic {
 padding: left;
+}
+.company__contacts {
+    padding: right;
 }
