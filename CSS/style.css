@@ -2,9 +2,6 @@ header {
     background-color:#27273e;
     margin:auto;
 }
-img.logo__pic {
-    margin: left;
-}
 div.company__contacts {
-    margin: right;
+    text-align: right;
 }
