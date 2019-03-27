@@ -6,7 +6,7 @@ header {
     background-color:#27273e;
     margin:auto;
 }
-.logo__pic {
+img.logo__pic {
     width: 99px;
     height: 51px;
     background-position-x: 19px;
