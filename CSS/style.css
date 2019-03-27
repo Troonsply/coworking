@@ -5,3 +5,6 @@ margin:auto;
 .logo__pic {
 padding: right;
 }
+.picture_banner {
+    background-image: url(./img/baner_main.png);
+}
