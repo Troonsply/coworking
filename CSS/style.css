@@ -16,8 +16,8 @@ header {
 }
 .logo__pic {
     position: absolute;
-    left: 0px;
-    top: 0px; 
+    left: 10px;
+    top: 20px; 
 }
 .company__contacts {
     position: absolute;
@@ -48,7 +48,7 @@ h1 {
     line-height: 38px;
     position: absolute;
     left: 100px;
-    top: 50px;  
+    bottom: 50px;  
     }
 .feature__originality,
 .feature__vip,
