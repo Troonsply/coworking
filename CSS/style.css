@@ -31,4 +31,6 @@ header {
 }
 .feature {
     display: inline-block;
+    width: 1100px;
+    height: 77px;
 }
