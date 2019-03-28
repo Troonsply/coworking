@@ -10,6 +10,7 @@ body {
 }
 header {
     background-color:#27273e;
+    color: #ffffff;
 }
 .logo__pic {
     text-align: left;
@@ -20,5 +21,4 @@ header {
 .picture_banner {
     background-image: url('../img/Banner.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
 }
