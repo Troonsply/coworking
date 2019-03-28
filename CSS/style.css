@@ -30,7 +30,11 @@ header {
     background-color: #27273e;
 }
 .feature {
+    text-align: center;
+}
+.feature__originality,
+.feature__vip,
+.feature__luxury {
     display: inline-block;
-    width: 1100px;
-    height: 77px;
+    margin-right: -0.25em;
 }
