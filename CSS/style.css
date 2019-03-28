@@ -34,18 +34,22 @@ header {
     background-position: center;
     background-color: #27273e;
 }
-h1 {
-width: 335px;
-height: 37px;
-color: #221f1f;
-font-family: "Gotham Pro";
-font-size: 49px;
-font-weight: 700;
-line-height: 38px;
-}
 .feature {
     text-align: center;
+    position: relative;
 }
+h1 {
+    width: 335px;
+    height: 37px;
+    color: #221f1f;
+    font-family: "Gotham Pro";
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    position: absolute;
+    left: 100px;
+    top: 50px;  
+    }
 .feature__originality,
 .feature__vip,
 .feature__luxury {
