@@ -10,8 +10,8 @@ body {
 }
 header {
     background-color:#27273e;
-    width: 1100px;
-    height: 77px;
+    background-position: center;
+    min-height: 77px;
 }
 .logo__pic {
     text-align: left;
