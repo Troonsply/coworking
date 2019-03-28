@@ -11,7 +11,7 @@ body {
 header {
     background-color:#27273e;
     background-position: center;
-    min-height: 77px;
+    max-height: 150px;
 }
 .logo__pic {
     text-align: left;
