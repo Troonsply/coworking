@@ -46,11 +46,8 @@ h1 {
     font-size: 49px;
     font-weight: 700;
     line-height: 38px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -50px 0 0 0;  
-    }
+    position: 202px 0 0 501px;
+        }
 .feature__originality,
 .feature__vip,
 .feature__luxury {
