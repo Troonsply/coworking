@@ -20,6 +20,5 @@ header {
 .picture_banner {
     background-image: url('../img/Banner.jpg');
     background-repeat: no-repeat;
-    margin:0px 0px;
     background-size: cover;
 }
