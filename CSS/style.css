@@ -17,7 +17,8 @@ header {
     text-align: left;
 }
 .company__contacts {
-    text-align: top right;
+    position: relative;
+    right: 800px;    
 }
 .company__phone {
     color: #ffffff;
