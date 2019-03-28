@@ -21,4 +21,7 @@ header {
 .picture_banner {
     background-image: url('../img/Banner.jpg');
     background-repeat: no-repeat;
+    min-height: 359px;
+    background-position: center;
+    background-color: #27273e;
 }
