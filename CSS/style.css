@@ -11,7 +11,7 @@ body {
 header {
     background-color:#27273e;
     background-position: center;
-    max-height: 70px;
+    height: 77px;
     position: relative;
 }
 .logo__pic {
