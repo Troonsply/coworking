@@ -16,8 +16,8 @@ header {
 }
 .logo__pic {
     position: absolute;
-    left: 10px;
-    top: 20px; 
+    left: 0px;
+    top: 0px; 
 }
 .company__contacts {
     position: absolute;
