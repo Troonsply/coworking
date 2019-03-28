@@ -15,7 +15,5 @@ header {
     background-image: url('../img/Banner.jpg');
     background-repeat: no-repeat;
     margin:0px 0px;
-    width: 1100px;
-    height: 359px;
-    position: absolute;
+    background-size: cover;
 }
