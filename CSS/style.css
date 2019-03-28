@@ -10,5 +10,7 @@ header {
     background-color:#27273e;
 }
 .picture_banner {
-    background-image: url(../img/Banner.jpg);
+    background-image: url('../img/Banner.jpg');
+    background-repeat: no-repeat;
+    min-height: 359px;
 }
