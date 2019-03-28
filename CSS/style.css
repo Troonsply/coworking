@@ -2,15 +2,10 @@ html {
     margin: 0;
     padding: 0;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 header {
-    background-color:#27273e;
-    margin:auto;
-}
-img.logo__pic {
-    width: 99px;
-    height: 51px;
-    background-position: 19px 12px;
-}
-div.company__contacts {
-    text-align: right;
+    background-image: url(https://github.com/Troonsply/coworking/blob/master/img/Banner.jpg)
 }
