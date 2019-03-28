@@ -11,7 +11,13 @@ body {
 header {
     background-color:#27273e;
 }
-.page.picture_banner {
+.logo__pic {
+    text-align: left;
+}
+.company__contacts {
+    text-align: right;
+}
+.picture_banner {
     background-image: url('../img/Banner.jpg');
     background-repeat: no-repeat;
     margin:0px 0px;
