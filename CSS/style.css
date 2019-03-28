@@ -29,8 +29,6 @@ header {
     background-position: center;
     background-color: #27273e;
 }
-.feature__originality,
-.feature__vip,
-.feature__luxury {
-    display: inline;
+.feature {
+    display: inline-block;
 }
