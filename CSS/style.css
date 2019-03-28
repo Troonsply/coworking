@@ -5,6 +5,8 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    font-weight: 300;
 }
 header {
     background-color:#27273e;
@@ -12,5 +14,6 @@ header {
 .picture_banner {
     background-image: url('../img/Banner.jpg');
     background-repeat: no-repeat;
+    background-position:0px 75px;
     min-height: 359px;
 }
