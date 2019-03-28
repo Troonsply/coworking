@@ -11,13 +11,13 @@ body {
 header {
     background-color:#27273e;
     background-position: center;
-    max-height: 150px;
+    max-height: 70px;
 }
 .logo__pic {
     text-align: left;
 }
 .company__contacts {
-    text-align: center right;
+    text-align: top right;
 }
 .company__phone {
     color: #ffffff;
