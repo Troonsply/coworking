@@ -32,5 +32,5 @@ header {
 .feature__originality,
 .feature__vip,
 .feature__luxury {
-    display: block;
+    display: inline;
 }
