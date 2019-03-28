@@ -12,13 +12,17 @@ header {
     background-color:#27273e;
     background-position: center;
     max-height: 70px;
+    position: relative;
 }
 .logo__pic {
-    text-align: left;
+    position: absolute;
+    left: 10px;
+    top: 20px; 
 }
 .company__contacts {
-    position: relative;
-    right: 800px;    
+    position: absolute;
+    right: 10px;
+    top: 20px;    
 }
 .company__phone {
     color: #ffffff;
