@@ -43,6 +43,7 @@ header {
     font-size: 14px;
     font-weight: 700;
     line-height: 54px;
+    text-align: left;
     text-decoration: underline;
 }
 .picture_banner {
