@@ -79,10 +79,8 @@ h1 {
 footer {
     background-color: #27273e;
     position: relative;
-    display: inline;
 }
 .network {
-    display: inline;
     position: absolute;
     right: 10px;
     top: 20px; 
@@ -94,9 +92,9 @@ footer {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
-ul.netwotk_list { list-style-type: none; 
+ul { 
+    list-style-type: none; 
 }
-li.pagination__pages-item,
-li.network__item {
+li {
     display: inline-block;
 }
