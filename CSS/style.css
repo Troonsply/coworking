@@ -80,6 +80,12 @@ footer {
     background-color: #27273e;
     position: relative;
 }
+footer ul { 
+    list-style-type: none; 
+}
+.footer li {
+    display: inline-block;
+}
 .network {
     position: absolute;
     right: 10px;
@@ -91,10 +97,4 @@ footer {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%,-50%)
-}
-.network__list ul { 
-    list-style-type: none; 
-}
-.network__item li {
-    display: inline-block;
 }
