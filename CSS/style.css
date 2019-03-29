@@ -36,6 +36,11 @@ header {
     line-height: 54px;
     text-transform: uppercase;
 }
+.company__schedule {
+    position: absolute;
+    right: 10px;
+    top: 20px; 
+}
 .company__schedule-work {
     width: 114px;
     height: 14px;
@@ -46,9 +51,6 @@ header {
     font-weight: 700;
     line-height: 54px;
     text-decoration: underline;
-    position: absolute;
-    right: 10px;
-    top: 20px; 
 }
 .picture_banner {
     background-image: url('../img/Banner.jpg');
