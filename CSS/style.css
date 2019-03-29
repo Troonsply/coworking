@@ -94,7 +94,8 @@ h1 {
     min-height: 77px;
 }
 .footer ul,
-.pagination__controls ul { 
+.pagination__controls ul,
+.sidebar ul { 
     list-style-type: none; 
 }
 .footer li,
