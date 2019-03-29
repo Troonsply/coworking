@@ -76,12 +76,11 @@ h1 {
 .feature__luxury {
     display:inline-block;
 }
-/*.pagination__controls ul { 
-    list-style-type: none; 
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.pagination__controls li {
-    display: inline-block;
-}*/
 .footer {
     background-color: #27273e;
     position: relative;
