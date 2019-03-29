@@ -62,6 +62,11 @@ header {
     background-position: center;
     background-color: #27273e;
 }
+.sidebar {
+    width: 300px;
+    float: left;
+    position: absolute;
+}
 .feature {
     text-align: center;
     position: relative;
