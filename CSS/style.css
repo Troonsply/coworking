@@ -81,7 +81,7 @@ footer {
     position: relative;
 }
 .network {
-    display: inline-block;
+    display: inline;
     position: absolute;
     right: 10px;
     top: 20px; 
@@ -92,7 +92,4 @@ footer {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-}
-.network__list {
-    display: inline;
 }
