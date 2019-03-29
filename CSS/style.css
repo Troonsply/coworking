@@ -61,6 +61,11 @@ header {
     float: left;
     position: absolute;
 }
+.nav__icon-pic{
+width: 17px;
+height: 15px;
+border: 2px solid #000000;
+}
 .feature {
     text-align: center;
     position: relative;
