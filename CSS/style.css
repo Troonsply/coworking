@@ -86,6 +86,13 @@ footer {
     right: 10px;
     top: 20px; 
 }
-.network__contackts {
+.footer__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.network__list {
     display: inline;
 }
