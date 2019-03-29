@@ -79,6 +79,7 @@ h1 {
 footer {
     background-color: #27273e;
     position: relative;
+    display: inline;
 }
 .network {
     display: inline;
@@ -92,4 +93,5 @@ footer {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
+    display: inline;
 }
