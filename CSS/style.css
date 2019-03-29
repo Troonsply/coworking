@@ -82,4 +82,11 @@ footer {
     width: 1100px;
     height: 77px;
     background-color: #27273e;
+    position: relative;
+}
+.network {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px; 
 }
