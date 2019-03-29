@@ -35,6 +35,9 @@ header {
     font-weight: 700;
     line-height: 54px;
     text-transform: uppercase;
+    position: absolute;
+    right: 10px;
+    top: 20px; 
 }
 .company__schedule {
     position: absolute;
