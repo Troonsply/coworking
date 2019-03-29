@@ -6,7 +6,7 @@ body {
     line-height: 18px;
 }
 
-header {
+.header {
     background-color:#27273e;
     background-position: center;
     height: 77px;
