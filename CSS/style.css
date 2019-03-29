@@ -86,3 +86,6 @@ footer {
     right: 10px;
     top: 20px; 
 }
+.network__contackts {
+    display: inline;
+}
