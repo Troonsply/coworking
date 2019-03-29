@@ -11,8 +11,6 @@ header {
     background-position: center;
     height: 77px;
     position: relative;
-    width: 1060px;
-    height: 51px;
 }
 .logo__pic {
     position: absolute;
@@ -79,8 +77,6 @@ h1 {
     display: inline-block;
 }
 footer {
-    width: 1100px;
-    height: 77px;
     background-color: #27273e;
     position: relative;
 }
