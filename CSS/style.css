@@ -78,3 +78,8 @@ h1 {
 .feature__luxury {
     display: inline-block;
 }
+.footer {
+    width: 1100px;
+    height: 77px;
+    background-color: #27273e;
+}
