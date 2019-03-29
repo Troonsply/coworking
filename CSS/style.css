@@ -74,7 +74,7 @@ h1 {
 .feature__originality,
 .feature__vip,
 .feature__luxury {
-    display: inline-block;
+    display:inline-block;
 }
 footer {
     background-color: #27273e;
@@ -90,7 +90,7 @@ footer {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%,-50%)
 }
 .network__list ul { 
     list-style-type: none; 
