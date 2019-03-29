@@ -76,9 +76,10 @@ h1 {
 .feature__luxury {
     display:inline-block;
 }
-footer {
+.footer {
     background-color: #27273e;
     position: relative;
+    color: #ffffff;
 }
 .footer ul { 
     list-style-type: none; 
