@@ -25,18 +25,24 @@ header {
     top: 20px;    
 }
 .company__phone {
+    width: 198px;
+    height: 18px;
     color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 54px;
+    text-transform: uppercase;
 }
 .company__schedule-work {
-width: 114px;
-height: 14px;
-opacity: 0.7;
-color: #ec1e79;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 700;
-line-height: 54px;
-text-decoration: underline;
+    width: 114px;
+    height: 14px;
+    opacity: 0.7;
+    color: #ec1e79;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
 }
 .picture_banner {
     background-image: url('../img/Banner.jpg');
