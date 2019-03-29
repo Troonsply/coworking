@@ -95,7 +95,7 @@ h1 {
 }
 .footer ul,
 .pagination__controls ul,
-.sidebar ul { 
+.nav ul { 
     list-style-type: none; 
 }
 .footer li,
