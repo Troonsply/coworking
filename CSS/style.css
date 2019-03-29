@@ -113,3 +113,6 @@ h1 {
     margin-right: -50%;
     transform: translate(-50%,-50%)
 }
+p, ul, li {
+    box-sizing: border-box;
+}
