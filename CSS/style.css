@@ -80,6 +80,7 @@ h1 {
     background-color: #27273e;
     position: relative;
     color: #ffffff;
+    min-height: 77px;
 }
 .footer ul { 
     list-style-type: none; 
