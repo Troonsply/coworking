@@ -92,9 +92,9 @@ footer {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
-ul { 
+.network__list ul { 
     list-style-type: none; 
 }
-li {
+.network__item li {
     display: inline-block;
 }
