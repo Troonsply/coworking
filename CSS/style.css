@@ -61,22 +61,20 @@ header {
     float: left;
     position: absolute;
 }
-.nav__icon-pic{
+.nav__icon-pic {
 width: 17px;
 height: 15px;
 }
 .nav__title {
-width: 71px;
-height: 11px;
-color: #000000;
-font-family: "Gotham Pro";
-font-size: 12px;
-font-weight: 700;
-line-height: 54px;
-text-decoration: underline;
-text-transform: uppercase;
-/* Text style for "Главная" */
-letter-spacing: 1.2px;
+    width: 71px;
+    height: 11px;
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 54px;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 .feature {
     text-align: center;
