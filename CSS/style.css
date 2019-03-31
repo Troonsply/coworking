@@ -1,26 +1,36 @@
 body {
     margin: 0;
-    padding: 0;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+ ul li {
+    list-style: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+ }
 
-header {
+ .container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+.header {
     background-color:#27273e;
     background-position: center;
     height: 77px;
-    position: relative;
 }
-.logo__pic {
-    position: absolute;
-    left: 10px;
-    top: 20px; 
-}
-.company__contacts {
-    position: absolute;
-    right: 10px;
-    top: 20px;    
+.header__container{ 
+        position: relative;
+        height: 77px;
 }
 .company__phone {
     width: 198px;
@@ -108,15 +118,6 @@ h1 {
     color: #ffffff;
     min-height: 77px;
 }
-.footer ul,
-.pagination__controls ul,
-.nav ul { 
-    list-style-type: none; 
-}
-.footer li,
-.pagination__controls li {
-    display: inline-block;
-}
 .network {
     position: absolute;
     right: 10px;
@@ -128,7 +129,4 @@ h1 {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%,-50%)
-}
-p, ul, li {
-    box-sizing: border-box;
 }
