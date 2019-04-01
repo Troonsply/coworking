@@ -65,6 +65,7 @@ img {
     background-position: center;
     background-color: #27273e;
 }
+.page-content,
 .sidebar {
     display: inline-block;
     vertical-align: top;
@@ -74,6 +75,7 @@ img {
 .nav__title {
   display: inline-block;
   vertical-align: top;
+  margin: 10px;
 }
 
 .nav__link {
@@ -83,19 +85,21 @@ img {
 .nav__icon {
   width: 24px;
   height: 18px;
-  background: center center no-repeat;
 }
-.nav__icon:nth-first-child {
+.nav__icon:first-child {
   color:#ec1e79;
 }
 .nav__icon--main {
-    background: url('../img/main_icon.png')
+    background: url('../img/main_icon.png') center center no-repeat;
 }
 .nav__icon--star {
-    background: url('../img/feed_icon.png')
+    background: url('../img/feed_icon.png') center center no-repeat;
 }
 .nav__icon--direction {
-    background: url('../img/wallet_icon.png')
+    background: url('../img/wallet_icon.png') center center no-repeat;
+}
+.nav__item--active .nav__title {
+    color: black;
 }
 
 .feature {
@@ -105,7 +109,7 @@ img {
     align-items: center;
     justify-content: center;
 }
-.features__title-h {
+h1 {
     display: block;
     font-size: 49px;
     margin-block-start: 0.83em;
@@ -113,6 +117,7 @@ img {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    position: static;
 }
 .feature__originality,
 .feature__vip,
