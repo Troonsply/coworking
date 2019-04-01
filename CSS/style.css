@@ -83,7 +83,10 @@ img {
 .nav__icon {
   width: 24px;
   height: 18px;
-  background: no-repeat;
+  background: center center no-repeat;
+}
+.nav__icon:nth-first-child {
+  color:#ec1e79;
 }
 .nav__icon--main {
     background: url('../img/main_icon.png')
