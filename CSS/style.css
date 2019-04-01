@@ -20,7 +20,6 @@ img {
  }
 
  .container {
-    width: 1100px;
     margin: 0 auto;
   }
 .header {
@@ -35,22 +34,22 @@ img {
 .logo {
     display: inline-block;
     position: absolute;
-    left: 0;
+    left: 20px;
     top: 10px;
   }
   
  .company__contacts {
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 10px;
     text-align: right;
+    color: #ffffff;
   }
 .company-contacts__phone{
-    color: #ffffff;
     font-size: 21px;
     text-decoration: none;
     font-weight: bold;
-  
+    color: inherit;
 }
 
 .company__schedule-work {
@@ -67,24 +66,34 @@ img {
     background-color: #27273e;
 }
 .sidebar {
-    width: 300px;
-    float: left;
-    position: absolute;
+    display: inline-block;
+    vertical-align: top;
 }
-.nav__icon-pic {
-width: 17px;
-height: 15px;
-}
+
+.nav__icon,
 .nav__title {
-    width: 71px;
-    height: 11px;
-    color: #000000;
-    font-family: "Gotham Pro";
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 54px;
-    text-decoration: underline;
-    text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav__link {
+  text-decoration: none;
+
+}
+
+.nav__icon {
+  width: 24px;
+  height: 18px;
+  background: center center no-repeat;
+}
+.nav__icon--main {
+    background: url('./img/main_icon.png')
+}
+.nav__icon--star {
+    background: url('./img/feed_icon.png')
+}
+.nav__icon--direction {
+    background: url('./img/wallet_icon.png')
 }
 .feature {
     text-align: center;
@@ -93,14 +102,14 @@ height: 15px;
     align-items: center;
     justify-content: center;
 }
-h1 {
-    width: 335px;
-    height: 37px;
-    color: #221f1f;
-    font-family: "Gotham Pro";
+.features__title-h {
+    display: block;
     font-size: 49px;
-    font-weight: 700;
-    line-height: 38px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 .feature__originality,
 .feature__vip,
