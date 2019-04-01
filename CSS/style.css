@@ -83,7 +83,7 @@ img {
 .nav__icon {
   width: 24px;
   height: 18px;
-  background: center center no-repeat;
+  background: no-repeat;
 }
 .nav__icon--main {
     background: url('../img/main_icon.png')
