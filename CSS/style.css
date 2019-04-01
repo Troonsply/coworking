@@ -78,7 +78,6 @@ img {
 
 .nav__link {
   text-decoration: none;
-
 }
 
 .nav__icon {
@@ -94,6 +93,9 @@ img {
 }
 .nav__icon--direction {
     background: url('./img/wallet_icon.png')
+}
+.nav__icon--direction {
+    background-image: url('./img/icons/menu/direction.png');
 }
 .feature {
     text-align: center;
