@@ -12,7 +12,7 @@
             <header class="header">
                 <div class="container header__container">
                     <a class="logo">
-                    <img src="./img/logo-fig.png" class="logo-pic" alt="Logo">
+                    <img src="./img/logo-fig.png" class="logo__pic" alt="Logo">
                     </a>
                     <div class="company-contacts">
                         <a href="8 (800) 00-392-10" class="company-contacts__phone">8 (800) 00-392-10</a>
@@ -95,38 +95,38 @@
                                     </li>
                                 </ul>                   
                             </section>
-                            <section class="previews__desc">
-                                <h2 class="previews__title">Последние Новости</h2>
-                                <ul class="previews__items">
+                            <section class="previews">
+                                <h2 class="title">Последние Новости</h2>
+                                <ul class="previews__list">
                                     <li class="previews__item">
                                         <div class="previews__pic">
-                                            <img src="./img/black_sale.png" alt="black-sale" class="previews__pic-avatar">
+                                            <img src="./img/black_sale.png" alt="black-sale" class="previews__avatar">
                                         </div>
                                         <div class="previews__desc">
                                             <div class="prewiews__date">12.10.2016</div>
                                             <div class="previews__headline">Черная дыра скидок!</div>
-                                                <p class="previews__desc-text">Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7.
+                                                <p class="previews__text">Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7.
 Используйте шкаф для хранения личных вещей. </p>
                                         </div>
                                     </li>
                                     <li class="previews__item">
                                         <div class="previews__pic">
-                                            <img src="./img/friend.png" alt="surprise" class="previews__pic-avatar">
+                                            <img src="./img/friend.png" alt="surprise" class="previews__avatar">
                                         </div>
                                         <div class="previews__desc">
                                             <div class="prewiews__date">01.02.2016</div>
                                             <div class="previews__headline">Заражай друзей, получай призы!</div>
-                                                <p class="previews__desc-text">Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для резидентов.</p>
+                                                <p class="previews__text">Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для резидентов.</p>
                                         </div>
                                     </li>
                                     <li class="previews__item">
                                         <div class="previews__pic">
-                                            <img src="./img/desktop.png" alt="workplace" class="previews__pic-avatar">
+                                            <img src="./img/desktop.png" alt="workplace" class="previews__avatar">
                                         </div>
                                         <div class="previews__desc">
                                             <div class="prewiews__date">22.12.2015</div>
                                             <div class="previews__headline">Новое рабочее место для бизнесменов.</div>
-                                            <p class="previews__desc-text">Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную зону и зону релакса.
+                                            <p class="previews__text">Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную зону и зону релакса.
 Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной, посудой.</p>
                                         </div>
                                     </li>
@@ -164,44 +164,36 @@
                         </main>
                     </div>
             </div>
-            <footer class="footer">
-                <div class="footer__text">
-                    <p class="footer__text-note">Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.<br>Автор работы: Прохладов Вадим</p>
-                </div>
-                <div class="footer__img">
-                    <img src="./img/logo-fig.png" alt="Logo" class="footer__img-logo">
-                </div>
-                <div class="network">
-                    <div class="network__contackts">Наши социальные сети</div>
-                    <ul class="network__list">
-                        <li class="network__item">
-                            <a href="#" class="network__link">
-                                <img src="#" alt="VK" class="network_vk">
-                            </a>
-                        </li>
-                        <li class="network__item">
-                            <a href="#" class="network__link">
-                                <img src="#" alt="FC" class="network_fc">
-                            </a>
-                        </li>
-                        <li class="network__item">
-                            <a href="#" class="network__link">
-                                <img src="#" alt="Gplus" class="network_gplus">
-                            </a>
-                        </li>
-                        <li class="network__item">
-                            <a href="#" class="network__link">
-                                <img src="#" alt="Twitter" class="network_twitter">
-                            </a>
-                        </li>
-                        <li class="network__item">
-                            <a href="#" class="network__link">
-                                <img src="#" alt="Mail" class="network_mail">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </footer>   
+            <div class="container">
+                <footer class="footer">
+                    <div class="footer__text">
+                        <p class="footer__text-note">Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.<br>Автор работы: Прохладов Вадим</p>
+                    </div>
+                    <a class="logo">
+                        <img src="./img/logo-fig.png" class="logo__pic logo__pic--footer" alt="Logo">
+                    </a>
+                    <div class="network">
+                        <h3 class="network__contackts">Наши социальные сети</h3>
+                        <ul class="network__list">
+                            <li class="network__item">
+                                <a href="#" class="network__link"></a>
+                            </li>
+                            <li class="network__item">
+                                <a href="#" class="network__link"></a>
+                            </li>
+                            <li class="network__item">
+                                <a href="#" class="network__link"></a>
+                            </li>
+                            <li class="network__item">
+                                <a href="#" class="network__link"></a>
+                            </li>
+                            <li class="network__item">
+                                <a href="#" class="network__link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer> 
+            </div>  
         </div>
     </body>
 </html>
