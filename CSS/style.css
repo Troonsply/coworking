@@ -116,10 +116,10 @@ ul {
     text-transform: uppercase;
 }
 .feature__list {
+    width: 194px;
     display: flex;
     justify-content: space-evenly;
     font-size: 18px;
-    font-weight: 400;
     line-height: 30px;
 }
 .feature__item {
