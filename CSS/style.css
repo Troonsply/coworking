@@ -130,10 +130,11 @@ ul {
 }
 .pagination {
     display: flex;
+    flex-direction: row;
 }
 .pagination__wrapper {
-font-size: 14px;
-margin-bottom: 60px;
+    font-size: 14px;
+    margin-bottom: 60px;
 }
 .footer {
     background-color: #27273e;
