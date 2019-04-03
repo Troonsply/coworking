@@ -131,10 +131,11 @@ ul {
     line-height: 30px;
 }
 .feature__item:before {
+    padding-left: 40px;
     content: "• ";
     color:#ec1e79;
     position: relative; 
-    left: -10px;
+    left: -20px;
 }
 .previews__avatar {
     width: 160px; 
