@@ -11,7 +11,7 @@ ul {
     padding: 0;
 }
   
- ul li {
+ul li {
     list-style: none;
 }
 a {
@@ -148,9 +148,6 @@ a {
     display: flex;  
     flex-flow:column nowrap;
 }
-/*.previews__pic {
-    margin-right: 30px;
-}*/
 .previews__avatar {
     width: 160px; 
     height: 160px;
@@ -240,16 +237,14 @@ line-height: 30px;
     display: flex;
     justify-content: space-between;
 }
+.container.footer__container {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content:space-between;
+}
 .network {
     position: absolute;
     right: 10px;
     top: 20px;
     text-align: right;
-}
-.footer__img-logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%,-50%);
 }
