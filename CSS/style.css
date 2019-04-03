@@ -54,11 +54,12 @@ ul {
     background-position: center;
     background-color: #27273e;
 }
+.maincontent .container {
+    display: flex;
+   }
 
 .sidebar {
-    display: flex;
-    align-self: flex-start;
-    padding-inline-start: 0;
+    flex-basis: 200px;
 }
 .nav__icon,
 .nav__title {
@@ -90,12 +91,12 @@ ul {
     color: black;
 }
 .main {
-    padding-top: 24px;
-    padding-bottom: 72px;
+    flex-basis: 900px;
 }
 .feature {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 .title {
     font-size: 49px;
@@ -106,9 +107,6 @@ ul {
 .feature__list {
     display: flex;
     justify-content: space-evenly;
-}
-.feature__items {
-    text-align: center;
 }
 .pagination {
     display: flex;
