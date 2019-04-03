@@ -103,10 +103,25 @@ ul {
     line-height: 38px;
     font-weight: bold;
 }
-
+.feature__title {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 51.38px;
+    text-transform: uppercase;
+}
 .feature__list {
     display: flex;
     justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.feature__item {
+
+}
+.feature__item:before {
+    content: "• ";
+    color:#ec1e79;
 }
 .previews__avatar {
     width: 160px; 
@@ -115,7 +130,6 @@ ul {
 }
 .pagination {
     display: flex;
-    justify-content: space-evenly;
 }
 .pagination__wrapper {
 font-size: 14px;
