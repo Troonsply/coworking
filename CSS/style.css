@@ -56,6 +56,8 @@ ul {
 }
 .maincontent .container {
     display: flex;
+    margin-top: 71px;
+    margin-left: 59px;
    }
 
 .sidebar {
