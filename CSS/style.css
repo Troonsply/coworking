@@ -123,12 +123,18 @@ ul {
     line-height: 30px;
 }
 .feature__item {
+    font-family: "Gotham Pro";
     text-align: left;
-    padding-left: 80px;
+    width: 194px;
+    height: 47px;
+    font-size: 18px;
+    line-height: 30px;
 }
 .feature__item:before {
     content: "• ";
     color:#ec1e79;
+    position: relative; 
+    left: -10px;
 }
 .previews__avatar {
     width: 160px; 
