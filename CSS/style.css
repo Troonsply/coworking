@@ -101,6 +101,7 @@ ul {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    margin-bottom: 50px;
 }
 .title {
     font-size: 49px;
@@ -140,10 +141,45 @@ ul {
     position: relative; 
     left: -20px;
 }
+.previews__list {
+    display: flex;  
+    flex-flow:column nowrap;
+}
+/*.previews__pic {
+    margin-right: 30px;
+}*/
 .previews__avatar {
     width: 160px; 
     height: 160px;
     border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 62px;
+}
+.previews__desk {
+    width: 685px;
+    height: 166px;
+}
+.prewiews__date {
+    color: #656464;
+    font-family: "Roboto Light";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.previews__headline {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+    line-height: 21px;
+}
+.previews__text {
+font-family: "Roboto Light";
+font-weight: 300;
+line-height: 30px;
+}
+.prewiews__date,
+.previews__headline{
+    margin-bottom: 10px;
 }
 .pagination {
     display: flex;
