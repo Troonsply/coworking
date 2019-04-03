@@ -55,10 +55,6 @@ ul {
     background-color: #27273e;
 }
 
-.main {
-    padding-top: 24px;
-    padding-bottom: 72px;
-}
 .sidebar {
     display: flex;
     align-self: flex-start;
@@ -93,7 +89,10 @@ ul {
 .nav__item--active .nav__title {
     color: black;
 }
-
+.main {
+    padding-top: 24px;
+    padding-bottom: 72px;
+}
 .feature {
     display: flex;
     justify-content: space-evenly;
@@ -104,16 +103,16 @@ ul {
     font-weight: bold;
 }
 
-.feature__list:nth-child(1) {
-    margin: 60px 25px;
-    display: inline-block;
-    font-weight: 400;
-    line-height: 30px;
+.feature__list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature__items {
     text-align: center;
-    margin-left: auto;
 }
 .pagination {
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
 }
 .pagination__wrapper {
 font-size: 14px;
