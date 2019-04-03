@@ -237,14 +237,12 @@ line-height: 30px;
     display: flex;
     justify-content: space-between;
 }
-.container.footer__container {
-    display: flex;
-    flex-flow: nowrap;
-    justify-content:space-between;
+.footer__container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.footer__text,
+.footer__logo,
 .network {
-    position: absolute;
-    right: 10px;
-    top: 20px;
-    text-align: right;
 }
