@@ -239,8 +239,9 @@ line-height: 30px;
     justify-content: space-around;
     align-items: center;
 }
-.footer__text,
-.footer__logo,
-.network {
-    padding-right: 70px;
+.network__link-vk {
+    background: url('../img/vk.png')
+    width: 20px;
+    height: 20px;
+    background-color:#ec1e79;
 }
