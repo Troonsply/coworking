@@ -32,6 +32,10 @@ ul {
     margin: 0;
     padding: 0;
 }
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
   
 ul li {
     list-style: none;
@@ -277,13 +281,16 @@ line-height: 30px;
     justify-content: space-around;
     align-items: center;
 }
+
 .network__contackts {
     margin: 0;
 }
-.network__list {
+.network .network__list {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 104px;
+    margin: 10px;
+    align-items: center;
 }
 .network__item {
     display: flex;
@@ -293,6 +300,7 @@ line-height: 30px;
     background: #ffffff;
     border-radius: 50%;
 }
+
 .network__link {
 display: block;
 text-align: center;
