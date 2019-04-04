@@ -242,6 +242,7 @@ line-height: 30px;
 
 .pagination__pages-link {
     color: #221f1f;
+    text-align: center;
 }
 .pagination__pages-item.active {
     color:#ffffff;
@@ -270,9 +271,9 @@ line-height: 30px;
     width: 104px;
 }
 .network__link {
-    width: 20px;
-    height: 20px;
-    background-color: #ec1e79;
+    width:20px;
+    height:20px;
+    background:#ec1e79;
     margin-top: 5px;
     margin-right: 6px;
     opacity: 0.7;
@@ -280,5 +281,4 @@ line-height: 30px;
 .network__link.network__link-vk {
     background: url('../img/vk.png') center center no-repeat;
     height: 20px;
-
 }
