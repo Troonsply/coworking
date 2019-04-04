@@ -275,12 +275,19 @@ line-height: 30px;
 .network__item {
     display: flex;
     justify-content: space-around;
-    width:20px;
+    align-items: flex-start;
+    /*width:20px;
     height:20px;
     background:#ec1e79;
+    border-radius: 10px;*/
+}
+.network__link {
+    width:20px;
+    height:20px;
+    background: #ffffff;
     border-radius: 10px;
 }
-.network__link .network__link-vk {
+.network__link-vk {
     background: url('../img/vk.png') center center no-repeat;
     width: 12px;
     height: 7px;
