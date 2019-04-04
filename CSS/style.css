@@ -38,10 +38,10 @@ ul li {
 }
 a {
     text-decoration: none;
-    display: block;
+    /*display: block;
     text-align: center;
     line-height: 25px;
-    height: 100%;
+    height: 100%;*/
 }
 .container {
     margin: 0 auto;
@@ -245,7 +245,10 @@ line-height: 30px;
 
 .pagination__pages-link {
     color: #221f1f;
-
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    height: 100%;
 }
 .pagination__pages-link.active {
     color:#ffffff;
@@ -289,6 +292,12 @@ line-height: 30px;
     height:20px;
     background: #ffffff;
     border-radius: 50%;
+}
+.network__link {
+display: block;
+text-align: center;
+line-height: 25px;
+height: 100%;
 }
 .network__link-vk {
     background: url('../img/vk.png') center center no-repeat;
