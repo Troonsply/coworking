@@ -125,9 +125,18 @@ a {
 .nav__icon--direction {
     background: url('../img/wallet_icon.png') center center no-repeat;
 }
+.nav__link:hover .nav__icon--star {
+    background: url('../img/feed_iconblack.png') center center no-repeat;
+}
+.nav__link:hover .nav__icon--direction {
+    background: url('../img/wallet_iconblack.png') center center no-repeat;
+}
 .nav__item--active .nav__title {
     color: black;
 }
+.nav__link:hover .nav__title {
+    color: black;
+  }
 .main {
     flex-basis: 900px;
 }
@@ -326,4 +335,10 @@ height: 100%;
 .network__link-mail {
     background: url('../img/mail.png') center center no-repeat;
     width: 12px;
+}
+.network__item:hover {
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background: #ec1e79;
 }
