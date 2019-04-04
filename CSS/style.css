@@ -38,6 +38,10 @@ ul li {
 }
 a {
     text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    height: 100%;
 }
 .container {
     margin: 0 auto;
@@ -231,17 +235,17 @@ line-height: 30px;
     line-height: 15px;
 }
 .pagination__pages-item {
-    width: 8px;
-    height: 12px;
+    width: 25px;
+    height: 25px;
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 700;
-    line-height: 21px;
-    padding-right: 18px;
+
 }
 
 .pagination__pages-link {
     color: #221f1f;
+
 }
 .pagination__pages-item.active {
     color:#ffffff;
@@ -275,11 +279,6 @@ line-height: 30px;
 .network__item {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
-    /*width:20px;
-    height:20px;
-    background:#ec1e79;
-    border-radius: 10px;*/
 }
 .network__link {
     width:20px;
