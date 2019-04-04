@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@font-face { 
+    font-family: "Gotham Pro";
+    src: url('../fonts/GothaProBol.otf');
+    font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+font-family: "Gotham Pro";
+src: url('../fonts/GothaProLig.otf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Gotham Pro";
+src: url('../fonts/GothaProLigIta.otf');
+font-weight: normal;
+font-style: italic;
+}
+p { font-family: "Roboto", Arial, sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -76,6 +98,7 @@ a {
 }
 .nav__title {
     color: #ec1e79;
+    font-family: "Gotham Pro";
     font-weight: bold;
 }
 .nav__link {
@@ -109,6 +132,7 @@ a {
 .title {
     font-size: 49px;
     line-height: 38px;
+    font-family: "Gotham Pro";
     font-weight: bold;
     margin-bottom: 45px;
     margin-top: 0;
@@ -117,7 +141,8 @@ a {
 .feature__title {
     margin: 0;
     font-size: 11px;
-    font-weight: 800;
+    font-family: "Gotham Pro";
+    font-weight: bold;
     line-height: 51.38px;
     color: #212121;
     text-transform: uppercase;
@@ -166,18 +191,18 @@ a {
 }
 .prewiews__date {
     color: #656464;
-    font-family: "Roboto Light";
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
 }
 .previews__headline {
-    font-family: "Roboto - Bold";
-    font-weight: 700;
+    font-family: "Roboto";
+    font-weight: bold;
     line-height: 21px;
 }
 .previews__text {
-font-family: "Roboto Light";
+font-family: "Roboto";
 font-weight: 300;
 line-height: 30px;
 }
@@ -200,7 +225,7 @@ line-height: 30px;
     width: 103px;
     height: 14px;
     color: #656464;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
@@ -208,7 +233,7 @@ line-height: 30px;
 .pagination__pages-item {
     width: 8px;
     height: 12px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
