@@ -239,10 +239,14 @@ line-height: 30px;
     justify-content: space-around;
     align-items: center;
 }
+.network__item {
+width: 20px;
+height: 20px;
+background-color: #ec1e79;
+}
 .network__link-vk {
     background-image: url('../img/vk.png');
-    width: 20px;
-    height: 20px;
-    background-color:#ec1e79;
-    border-radius: 50%;
+    width: 12px;
+    height: 7px;
+    background-color: #27273e;
 }
