@@ -264,18 +264,24 @@ line-height: 30px;
     justify-content: space-around;
     align-items: center;
 }
+.network__contackts {
+    margin: 0;
+}
 .network__list {
     display: flex;
     justify-content: space-evenly;
     width: 104px;
 }
 .network__item {
+    display: flex;
+    justify-content: space-around;
     width:20px;
     height:20px;
     background:#ec1e79;
     border-radius: 10px;
 }
-.network__link-vk {
+.network__link .network__link-vk {
     background: url('../img/vk.png') center center no-repeat;
-    height: 20px;
+    width: 12px;
+    height: 7px;
 }
