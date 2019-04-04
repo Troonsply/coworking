@@ -244,7 +244,7 @@ line-height: 30px;
     justify-content: space-evenly;
     width: 104px;
 }
-.network__item {
+.network__link {
     width: 20px;
     height: 20px;
     background-color: #ec1e79;
@@ -253,7 +253,7 @@ line-height: 30px;
     margin-right: 6px;
     opacity: 0.7;
 }
-.network__link-vk {
+.network__link.network__link-vk {
     background-image: url('../img/vk.png');
     background: center center no-repeat;
 
