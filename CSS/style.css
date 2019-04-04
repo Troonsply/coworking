@@ -82,8 +82,8 @@ a {
 .maincontent .container {
     display: flex;
     margin-top: 71px;
-    margin-left: 59px;
-   }
+    margin-left: 100px;
+}
 
 .sidebar {
     flex-basis: 200px;
@@ -148,7 +148,7 @@ a {
     text-transform: uppercase;
 }
 .feature__list {
-    width: 194px;
+    width: 200px;
     display: flex;
     justify-content: space-evenly;
     font-size: 18px;
@@ -157,7 +157,7 @@ a {
 .feature__item {
     font-family: "Gotham Pro";
     text-align: left;
-    width: 194px;
+    width: 200px;
     height: 47px;
     font-size: 18px;
     line-height: 30px;
@@ -222,13 +222,13 @@ line-height: 30px;
     flex-direction: row;
 }
 .pagination__display {
-    width: 103px;
-    height: 14px;
+    width: 115px;
+    height: 20px;
     color: #656464;
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 300;
-    line-height: 21px;
+    line-height: 15px;
 }
 .pagination__pages-item {
     width: 8px;
@@ -273,12 +273,12 @@ line-height: 30px;
     width: 20px;
     height: 20px;
     background-color: #ec1e79;
-    border-radius: 50%;
     margin-top: 5px;
     margin-right: 6px;
     opacity: 0.7;
 }
 .network__link.network__link-vk {
     background: url('../img/vk.png') center center no-repeat;
+    height: 20px;
 
 }
