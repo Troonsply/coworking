@@ -240,8 +240,9 @@ line-height: 30px;
     align-items: center;
 }
 .network__link-vk {
-    background-image: url('../img/vk.png')
+    background-image: url('../img/vk.png');
     width: 20px;
     height: 20px;
     background-color:#ec1e79;
+    border-radius: 50%;
 }
