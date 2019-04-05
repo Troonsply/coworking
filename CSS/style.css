@@ -202,7 +202,6 @@ a {
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
-    float: left;
     margin-right: 20px;
     margin-bottom: 62px;
     flex-shrink: 0;
