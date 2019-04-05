@@ -136,8 +136,8 @@ a {
     flex-basis: 900px;
 }
 .feature {
-    display: flex;
-    justify-content: space-evenly;
+    /*display: flex;
+    justify-content: space-evenly;*/
     text-align: center;
     margin-bottom: 50px;
 }
@@ -149,6 +149,7 @@ a {
     margin-bottom: 45px;
     margin-top: 0;
     padding: 0;
+    text-align: left;
 }
 .feature__title {
     margin: 0;
@@ -160,9 +161,9 @@ a {
     text-transform: uppercase;
 }
 .feature__list {
-    width: 200px;
+    width: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-size: 18px;
     line-height: 30px;
 }
