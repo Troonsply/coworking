@@ -128,8 +128,14 @@ a {
 .nav__link:hover .nav__icon--direction {
     background: url('../img/wallet_iconblack.png') center center no-repeat;
 }
-.nav__item--active .nav__link--active {
-    color: #000000;
+.nav__item--active .nav__icon--main {
+    background: url('../img/main_icon.png') center center no-repeat;
+}
+.nav__item--active .nav__icon--star {
+    background: url('../img/feed_iconblack.png') center center no-repeat;
+}
+.nav__item--active .nav__icon--direction {
+    background: url('../img/wallet_iconblack.png') center center no-repeat;
 }
 .nav__item--active .nav__title {
     color: black;
@@ -350,8 +356,55 @@ a {
     color: #ffffff;
 }
 .sale {
+    min-height: 150px;
+    background-image: url('../img/Slice_1.png');
+    display: flex;
+    align-items: center;
     background-color: #27273e;
-    min-height: 174px;
+}
+.sale__text {
     color: #ffffff;
     text-align: center;
+}
+.breadcrumbs{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.breadcrumbs__item:after {
+  content: "/";
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__link {
+  font-style: italic;
+  font-size: 14px;
+  opacity: .8;
+  color: rgba(178, 73, 48, 0.8);
+}
+
+.breadcrumbs__block {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: black;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.breadcrumbs__item--active .breadcrumbs__block {
+  border-radius: 50%;
+  background: green;
+}
+
+.breadcrumbs {
+  margin-bottom: 27px;
 }
