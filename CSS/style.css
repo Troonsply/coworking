@@ -111,7 +111,7 @@ a {
     height: 18px;
 }
 .nav__icon--main {
-    background: url('../img/main_icon.png') center center no-repeat;
+    background: url('../img/main_iconpink.png') center center no-repeat;
 }
 .nav__icon--star {
     background: url('../img/feed_icon.png') center center no-repeat;
@@ -119,11 +119,17 @@ a {
 .nav__icon--direction {
     background: url('../img/wallet_icon.png') center center no-repeat;
 }
+.nav__link:hover .nav__icon--main {
+    background: url('../img/main_icon.png') center center no-repeat;
+}
 .nav__link:hover .nav__icon--star {
     background: url('../img/feed_iconblack.png') center center no-repeat;
 }
 .nav__link:hover .nav__icon--direction {
     background: url('../img/wallet_iconblack.png') center center no-repeat;
+}
+.nav__item--active .nav__link--active {
+    color: #000000;
 }
 .nav__item--active .nav__title {
     color: black;
