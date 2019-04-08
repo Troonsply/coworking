@@ -206,6 +206,48 @@ a {
     position: relative; 
     left: -20px;
 }
+.breadcrumbs{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.breadcrumbs__item:after {
+  content: "/";
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__link {
+  font-style: italic;
+  font-size: 14px;
+  opacity: .8;
+  color: rgba(178, 73, 48, 0.8);
+}
+
+.breadcrumbs__block {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: black;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.breadcrumbs__item--active .breadcrumbs__block {
+  border-radius: 50%;
+  background: #27273e;
+}
+
+.breadcrumbs {
+  margin-bottom: 27px;
+}
 .previews__item {
     display: flex;
 }
@@ -247,7 +289,7 @@ a {
     margin-bottom: 74px;
 }
 .pagination,
-.pagination_wrapper {
+.pagination__wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -355,56 +397,26 @@ a {
     text-decoration: underline;
     color: #ffffff;
 }
-.sale {
-    min-height: 150px;
+.advert {
+    min-height: 100px;
     background-image: url('../img/Slice_1.png');
+}
+.container--advert {
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-color: #27273e;
 }
-.sale__text {
+.advert__text {
+    width: 611px;
+    height: 77px;
     color: #ffffff;
-    text-align: center;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
 }
-.breadcrumbs{
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-
-.breadcrumbs__item:after {
-  content: "/";
-}
-
-.breadcrumbs__item:last-child:after {
-  display: none;
-}
-
-.breadcrumbs__link {
-  font-style: italic;
-  font-size: 14px;
-  opacity: .8;
-  color: rgba(178, 73, 48, 0.8);
-}
-
-.breadcrumbs__block {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: black;
-}
-
-.breadcrumbs__item--active .breadcrumbs__link {
-  color: #000;
-  text-decoration: none;
-}
-
-
-.breadcrumbs__item--active .breadcrumbs__block {
-  border-radius: 50%;
-  background: green;
-}
-
-.breadcrumbs {
-  margin-bottom: 27px;
+.advert__text-sale {
+    color: #ec1e79;
+    font-family: "Gotham Pro";
+    font-weight: 700;
 }
