@@ -349,3 +349,9 @@ a {
     text-decoration: underline;
     color: #ffffff;
 }
+.sale {
+    background-color: #27273e;
+    min-height: 174px;
+    color: #ffffff;
+    text-align: center;
+}
