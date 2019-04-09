@@ -489,6 +489,7 @@ form {
     opacity: 0.5;
     margin-right: 10px;
     position: relative;
+    cursor: pointer;
 }
 .form__radio-custom:after {
     content: '';
