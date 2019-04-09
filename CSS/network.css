@@ -1,0 +1,48 @@
+.network__contackts {
+    margin: 0;
+}
+.network .network__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+.network__item {
+    display: flex;
+    justify-content: center;
+    width:20px;
+    height:20px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+.network__link {
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    height: 100%;
+}
+.network__link-vk {
+    background: url('../img/vk.png') center center no-repeat;
+    width: 12px;
+}
+.network__link-fb {
+    background: url('../img/fb.png') center center no-repeat;
+    width: 12px;
+}
+.network__link-google {
+    background: url('../img/google.png') center center no-repeat;
+    width: 12px;
+}
+.network__link-twitter {
+    background: url('../img/twitter.png') center center no-repeat;
+    width: 12px;
+}
+.network__link-mail {
+    background: url('../img/mail.png') center center no-repeat;
+    width: 12px;
+}
+.network__item:hover {
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background: #ec1e79;
+}

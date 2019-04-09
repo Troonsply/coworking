@@ -1,0 +1,28 @@
+.header {
+    background-color:#27273e;
+}
+.container--flex{ 
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 99px;
+    height: 51px;
+}
+
+.company-contacts__phone{
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+.company-contacts__work {
+    border:none;
+    background-color:#27273e;
+    float: right;
+    color: #ec1e79;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: .7;
+}

@@ -1,0 +1,8 @@
+.container {
+    margin: 0 auto;
+    padding:15px;
+    width: 1100px;
+}
+.maincontent .container {
+    display: flex;
+}

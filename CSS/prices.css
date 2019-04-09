@@ -1,0 +1,49 @@
+.prices__list {
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row wrap;
+}
+.prices__item {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.prices__pic {
+    width: 250px; 
+    height: 150px; 
+    margin: 0 auto;
+    position: relative; 
+    margin-bottom: 15px;
+    overflow: hidden;
+    border: 50%;
+}
+.prices__img {
+    width: 100%;
+    height: 100%;
+}
+.prices__pic-effect {
+    width: 250px; 
+    height: 150px;
+    background-color: #27273e;
+    opacity: 0.8;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150px;
+    text-align: center;
+    color: #5dd1f8;
+    position: absolute;
+    top:0;
+    right: 0;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.prices__pic-effect:hover {
+    opacity: 0; 
+}
+.prices__pic-text {
+    display: block;
+    color: #ec1e79;
+}

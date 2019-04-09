@@ -1,0 +1,38 @@
+.previews__item {
+    display: flex;
+}
+.previews__pic {
+    width: 160px; 
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 62px;
+    flex-shrink: 0;
+    background: url('../img/logo_fig_comments.png') center center no-repeat;
+}
+.previews__avatar {
+    width: 160px; 
+    height: 160px;   
+}
+.prewiews__date,
+.previews__headline{
+    margin-bottom: 10px;
+}
+.prewiews__date {
+    color: #656464;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.previews__headline {
+    font-family: "Roboto";
+    font-weight: bold;
+    line-height: 21px;
+}
+.previews__text {
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 30px;
+}

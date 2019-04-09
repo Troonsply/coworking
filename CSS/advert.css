@@ -1,0 +1,14 @@
+.advert__text {
+    width: 611px;
+    height: 77px;
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.advert__text-sale {
+    color: #ec1e79;
+    font-family: "Gotham Pro";
+    font-weight: 700;
+}

@@ -1,0 +1,56 @@
+.sidebar {
+    flex-basis: 20%;
+}
+.nav__item {
+    margin-bottom: 20px;
+}
+.nav__icon,
+.nav__title {
+  display: inline-block;
+  vertical-align: top;
+}
+.nav__title {
+    color: #ec1e79;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+}
+.nav__link {
+    text-decoration: none;
+}
+.nav__icon {
+    width: 24px;
+    height: 18px;
+}
+.nav__icon--main {
+    background: url('../img/main_iconpink.png') center center no-repeat;
+}
+.nav__icon--star {
+    background: url('../img/feed_icon.png') center center no-repeat;
+}
+.nav__icon--direction {
+    background: url('../img/wallet_icon.png') center center no-repeat;
+}
+.nav__link:hover .nav__icon--main {
+    background: url('../img/main_icon.png') center center no-repeat;
+}
+.nav__link:hover .nav__icon--star {
+    background: url('../img/feed_iconblack.png') center center no-repeat;
+}
+.nav__link:hover .nav__icon--direction {
+    background: url('../img/wallet_iconblack.png') center center no-repeat;
+}
+.nav__item--active .nav__icon--main {
+    background: url('../img/main_icon.png') center center no-repeat;
+}
+.nav__item--active .nav__icon--star {
+    background: url('../img/feed_iconblack.png') center center no-repeat;
+}
+.nav__item--active .nav__icon--direction {
+    background: url('../img/wallet_iconblack.png') center center no-repeat;
+}
+.nav__item--active .nav__title {
+    color: black;
+}
+.nav__link:hover .nav__title {
+    color: black;
+}
