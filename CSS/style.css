@@ -90,7 +90,7 @@ a {
 }
 
 .sidebar {
-    flex-basis: 200px;
+    flex-basis: 20%;
 }
 .nav__item {
     margin-bottom: 20px;
@@ -146,7 +146,7 @@ a {
     color: black;
   }
 .main {
-    flex-basis: 900px;
+    flex-basis: 80%;
 }
 .feature {
     text-align: center;
@@ -575,13 +575,13 @@ form {
     right: 0;
     transition-duration: 1s;
     cursor: pointer;
-    overflow:hidden;
 }
 .prices__pic-effect:hover {
     opacity: 0; 
 }
 .prices__pic-text {
-    color:#ec1e79;
+    display: block;
+    color: #ec1e79;
 }
 .partners {
     margin-top: 40px;
