@@ -547,3 +547,23 @@ form {
     width: 250px; 
     height: 150px;  
 }
+.partners {
+    margin-top: 40px;
+}
+.partners__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.partners__item {
+    margin-bottom: 60px;
+    margin-right: 135px;
+}
+.partners__logo {
+    filter: grayscale(100%);
+    opacity: 0.7;
+    width: 150px;
+    height: 50px;
+}
