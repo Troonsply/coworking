@@ -338,7 +338,9 @@ a {
     color: #ffffff;
     min-height: 77px;
 }
-
+.footer__text-note {
+    margin: 0;
+}
 .network__contackts {
     margin: 0;
 }
