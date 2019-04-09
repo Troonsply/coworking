@@ -17,9 +17,7 @@ src: url('../fonts/GothaProLigIta.otf');
 font-weight: normal;
 font-style: italic;
 }
-* {
-    box-sizing: border-box;
-}
+
 p { font-family: "Roboto", Arial, sans-serif;
 }
 
@@ -30,6 +28,7 @@ body {
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
 }
 ul {
     margin: 0;
