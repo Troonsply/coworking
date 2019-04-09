@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 @font-face { 
     font-family: "Gotham Pro";
-    src: url('../fonts/GothaProBol.otf');
+    src: url('../fonts/GothaProBol.woff');
     font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 font-family: "Gotham Pro";
-src: url('../fonts/GothaProLig.otf');
+src: url('../fonts/GothaProLig.woff');
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
 font-family: "Gotham Pro";
-src: url('../fonts/GothaProLigIta.otf');
+src: url('../fonts/GothaProLigIta.woff');
 font-weight: normal;
 font-style: italic;
 }
