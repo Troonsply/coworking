@@ -281,15 +281,15 @@ a {
 }
 .pagination {
     margin-bottom: 74px;
-}
-.pagination,
-.pagination__wrapper {
     display: flex;
     justify-content: center;
+    flex-flow: row nowrap;
+}
+
+.pagination_wrapper {
     align-items: center;
     font-size: 14px;
 }
-.pagination,
 .pagination__pages {
     display: flex;
     flex-direction: row;
@@ -301,6 +301,7 @@ a {
     font-weight: 300;
     line-height: 15px;
     margin-right: 10px;
+    align-items: center;
 }
 .pagination__pages-item {
     font-family: "Roboto";
