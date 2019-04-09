@@ -399,7 +399,7 @@ a {
     min-height: 100px;
     background-image: url('../img/Slice_1.png');
 }
-.container--advert {
+.container--advert-block {
     display: flex;
     justify-content: center;
     align-items: center;
