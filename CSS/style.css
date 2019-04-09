@@ -565,7 +565,7 @@ form {
     background-color: #27273e;
     opacity: 0.8;
     font-family: "Gotham Pro";
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 160px;
     text-align: center;
@@ -575,9 +575,13 @@ form {
     right: 0;
     transition-duration: 1s;
     cursor: pointer;
+    overflow:hidden;
 }
 .prices__pic-effect:hover {
     opacity: 0; 
+}
+.prices__pic-text {
+    color:#ec1e79;
 }
 .partners {
     margin-top: 40px;
