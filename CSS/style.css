@@ -44,6 +44,7 @@ ul li {
 }
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 .container {
     margin: 0 auto;
@@ -522,7 +523,7 @@ form {
     border: transparent;
     padding-top: 18px;
     padding-bottom: 18px;
-    line-height: 70px;
+    font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
@@ -567,7 +568,7 @@ form {
     font-family: "Gotham Pro";
     font-size: 24px;
     font-weight: 700;
-    padding-top: 50px;
+    line-height: 150px;
     text-align: center;
     color: #5dd1f8;
     position: absolute;
