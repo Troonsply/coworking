@@ -259,11 +259,11 @@ a {
     margin-right: 20px;
     margin-bottom: 62px;
     flex-shrink: 0;
+    background: url('../img/logo_fig_comments.png') center center no-repeat;
 }
 .previews__avatar {
     width: 160px; 
-    height: 160px;
-    background: url('../img/logo_fig_comments.png') center center no-repeat;
+    height: 160px;   
 }
 .prewiews__date,
 .previews__headline{
