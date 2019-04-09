@@ -522,7 +522,7 @@ form {
     border: transparent;
     padding-top: 18px;
     padding-bottom: 18px;
-    font-size: 12px;
+    line-height: 70px;
     font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
@@ -567,7 +567,7 @@ form {
     font-family: "Gotham Pro";
     font-size: 24px;
     font-weight: 700;
-    line-height: 160px;
+    padding-top: 50px;
     text-align: center;
     color: #5dd1f8;
     position: absolute;
