@@ -1,4 +1,9 @@
-p { font-family: "Roboto", Arial, sans-serif;
+html , body {
+    height: 100%;
+}
+
+p { 
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 body {
