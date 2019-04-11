@@ -12,7 +12,7 @@
     margin-bottom: 60px;
     margin-right: 135px;
 }
-.partners__link:hover .partners__logo{
+.partners__link {
     display: block;
     width: 150px;
     padding: 22px 0;
@@ -24,6 +24,11 @@
     filter: grayscale(1);
     transition-duration: 1s;
 }
+
+.partners__link:hover {
+    opacity: 1;
+    filter: grayscale(0);
+  }
 .partners__logo {
     margin: 0;
     width: 150px;
