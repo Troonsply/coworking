@@ -31,10 +31,13 @@
     font-family: "Gotham Pro";
     font-size: 24px;
     font-weight: 700;
-    line-height: 150px;
     text-align: center;
     color: #5dd1f8;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     top:0;
     right: 0;
     transition-duration: 1s;
