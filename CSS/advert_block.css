@@ -1,5 +1,4 @@
 .advert {
-    min-height: 174px;
     background-image: url('../img/Slice_1.png');
 }
 .container--advert-block {
@@ -8,14 +7,12 @@
     align-items: center;
 }
 .advert__text {
-    width: 611px;
-    height: 77px;
     color: #ffffff;
     font-family: "Gotham Pro";
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
-    padding: 50px 200px;
+    padding: 50px 250px;
 }
 .advert__text-sale {
     color: #ec1e79;
