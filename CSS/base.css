@@ -13,7 +13,6 @@ body {
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    box-sizing: border-box;
 }
 ul {
     margin: 0;
@@ -43,4 +42,7 @@ a {
 }
 img {
 display: block;
+}
+* {
+    box-sizing: border-box;
 }
