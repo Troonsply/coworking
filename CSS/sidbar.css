@@ -4,57 +4,19 @@
 .nav__item {
     margin-bottom: 20px;
 }
-.nav__icon,
-.nav__title {
-  display: inline-block;
-  vertical-align: top;
-}
-.nav__title {
-    color: #ec1e79;
-    font-family: "Gotham Pro";
-    font-weight: bold;
-}
 .nav__link {
     text-decoration: none;
+    color: #ec1e79;
+    font-weight:700;
 }
+
 .nav__icon {
     width: 24px;
     height: 18px;
+    position: relative;
 }
-/*.nav__icon--main {
-    background: url('../img/main_iconpink.png') center center no-repeat;
-}
-.nav__icon--star {
-    background: url('../img/feed_icon.png') center center no-repeat;
-}
-.nav__icon--direction {
-    background: url('../img/wallet_icon.png') center center no-repeat;
-}
-.nav__link:hover .nav__icon--main {
-    background: url('../img/main_icon.png') center center no-repeat;
-}
-.nav__link:hover .nav__icon--star {
-    background: url('../img/feed_iconblack.png') center center no-repeat;
-}
-.nav__link:hover .nav__icon--direction {
-    background: url('../img/wallet_iconblack.png') center center no-repeat;
-}
-.nav__item--active .nav__icon--main {
-    background: url('../img/main_icon.png') center center no-repeat;
-}
-.nav__item--active .nav__icon--star {
-    background: url('../img/feed_iconblack.png') center center no-repeat;
-}
-.nav__item--active .nav__icon--direction {
-    background: url('../img/wallet_iconblack.png') center center no-repeat;
-}
-.nav__item--active .nav__title {
-    color: black;
-}
-.nav__link:hover .nav__title {
-    color: black;
-}*/
-.nav__icon:before {
+
+.nav__link:before .nav__link:after {
     content: '';
     display: inline-block;
     width: 24px;
@@ -62,19 +24,48 @@
     margin-right: 10px;
     background-image: url('../img/spritsheet.png');
     background-repeat: no-repeat;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.nav__icon--main:before {
+.nav__link--main:before {
     width: 17px;
     height: 15px;
     background-position: -192px -5px;
+    transition: 1s;
 }
-.nav__icon--star:before {
+.nav__link--main:after  {
+    width: 17px;
+    height: 15px;
+    background-position: -165px -5px;
+}
+.nav__link--star:before {
     width: 20px;
     height: 18px;
     background-position: -21px -5px;
+    transition: 1s;
 }
-.nav__icon--direction:before {
+.nav__link--star:after  {
+    width: 20px;
+    height: 18px;
+    background-position: -51px -5px;
+}
+
+.nav__link--direction:before {
     width: 19px;
     height: 16px;
     background-position: -342px -5px;
+    transition: 1s;
+}
+.nav__link--direction:after  {
+    width: 20px;
+    height: 18px;
+    background-position: -371px -5px;
+}
+.nav__item--active .nav__link:hover {
+    color: #000;
+}
+.nav__link:hover {
+    color: #000;
 }
