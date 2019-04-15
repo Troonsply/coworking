@@ -21,7 +21,7 @@
     width: 24px;
     height: 18px;
 }
-.nav__icon--main {
+/*.nav__icon--main {
     background: url('../img/main_iconpink.png') center center no-repeat;
 }
 .nav__icon--star {
@@ -53,4 +53,28 @@
 }
 .nav__link:hover .nav__title {
     color: black;
+}*/
+.nav__icon:before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+    margin-right: 10px;
+    background-image: url('../img/spritsheet.png');
+    background-repeat: no-repeat;
+}
+.nav__icon--main:before {
+    width: 17px;
+    height: 15px;
+    background-position: -192px -5px;
+}
+.nav__icon--star:before {
+    width: 20px;
+    height: 18px;
+    background-position: -21px -5px;
+}
+.nav__icon--direction:before {
+    width: 19px;
+    height: 16px;
+    background-position: -342px -5px;
 }
