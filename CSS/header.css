@@ -11,19 +11,54 @@
     height: 51px;
 }
 
-.company-contacts__phone{
+.contacts__phone{
     font-size: 21px;
     text-decoration: none;
     font-weight: bold;
     color:#ffffff;
 }
-
-.company-contacts__work {
+.contacts__schedule {
+    position: relative;
+}
+.contacts__work {
     border:none;
     background-color:#27273e;
     float: right;
     color: #ec1e79;
     font-size: 14px;
     font-weight: bold;
-    opacity: .7;
+    opacity: .9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contacts__work:hover {
+    color: #5dd1f8;
+}
+
+.contacts__timetable {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    float: right;
+    color: #ec1e79;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 700;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: none;
+}
+.contacts__schedule:hover .contacts__timetable {
+    display: block;
+}
+.contacts__worktime {
+    color: #ec1e79;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contacts__breaktime {
+    color: #221f1f;
+    font-family: "Gotham Pro Light";
+    font-weight: 300;
 }
