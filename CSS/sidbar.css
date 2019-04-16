@@ -57,9 +57,6 @@
     height: 18px;
     background-position: -342px -5px;
 }
-.nav__link:hover:after {
-    opacity: 1;
-  }
   .nav__item--active .nav__link {
     color: black;
 }
@@ -71,7 +68,7 @@
     filter: grayscale(100%);
 }
 .nav__item--active .nav__title {
-    color: #4f4c4c;
+    color: #000;
 }
     
 
