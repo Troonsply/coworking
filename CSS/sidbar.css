@@ -70,8 +70,6 @@
 .nav__item--active .nav__title {
     color: #000;
 }
-    
-
 .nav__item--active .nav__link:before {
     opacity: 1;
   }
