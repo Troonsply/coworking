@@ -1,36 +1,32 @@
 .partners {
     margin-top: 40px;
 }
+.title-partners {
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
 .partners__list {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: column wrap;
     align-items: center;
-    margin-bottom: 40px;
 }
 .partners__item {
-    margin-bottom: 60px;
-    margin-right: 135px;
+    margin-bottom: 30px;
 }
 .partners__link {
     display: block;
     width: 150px;
-    padding: 22px 0;
     margin: 0;
     text-align: center;
     cursor: pointer;
-    opacity: 0.5;
     transition: 300ms;
-    filter: grayscale(1);
     transition-duration: 1s;
 }
-
-.partners__link:hover {
-    opacity: 1;
-    filter: grayscale(0);
-  }
 .partners__logo {
     margin: 0;
-    width: 150px;
-    height: 50px;
+    width: 110px;
+    height: 55px;
 }
