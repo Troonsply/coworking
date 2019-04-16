@@ -8,6 +8,10 @@ margin-right: 10px;
 }
 .feature {
     text-align: center;
+    width: 272px;
+    height: 292px;
+    border: 1px solid #e8e9ed;
+    margin-right: 30px;
 }
 .feature__title {
     margin: 0;
