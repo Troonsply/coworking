@@ -29,7 +29,7 @@
     background-repeat: no-repeat;
     transition: 1s;
 }
-.nav__link::after{
+.nav__link:after {
     content: "";
     position: absolute;
     top: 13px;

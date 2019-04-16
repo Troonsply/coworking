@@ -13,32 +13,39 @@
     height:20px;
     background: #ffffff;
     border-radius: 50%;
+    padding-top: 5px;
 }
 .network__link {
     display: block;
     text-align: center;
     line-height: 25px;
     height: 100%;
+    background-image: url('../img/spritsheet.png');
 }
 .network__link-vk {
-    background: url('../img/vk.png') center center no-repeat;
     width: 12px;
+    height: 7px;
+    background-position: -320px -5px;
 }
 .network__link-fb {
-    background: url('../img/fb.png') center center no-repeat;
-    width: 12px;
+    width: 6px;
+    height: 13px;
+    background-position: -5px -5px;
 }
 .network__link-google {
-    background: url('../img/google.png') center center no-repeat;
-    width: 12px;
+    width: 15px;
+    height: 9px;
+    background-position: -118px -5px;
 }
 .network__link-twitter {
-    background: url('../img/twitter.png') center center no-repeat;
-    width: 12px;
+    width: 11px;
+    height: 9px;
+    background-position: -299px -5px;
 }
 .network__link-mail {
-    background: url('../img/mail.png') center center no-repeat;
     width: 12px;
+    height: 9px;
+    background-position: -143px -5px;
 }
 .network__item:hover {
     width:20px;
