@@ -6,15 +6,7 @@
     background-size: cover;
     background-blend-mode: multiply;
 }
-/*@keyframes minianimation {
-    from {
-        transform: translate(0) rotate(0);
-    }
-    to {
-        transform: translate(50% 50%) rotate(360deg);
-    }
 
-}*/
 @keyframes minianimation {
     from {
         transform: rotate(0deg);
@@ -34,6 +26,7 @@
     animation: minianimation 2s;
     animation-fill-mode: forwards;
 }
+
 .picture__link {
     margin-bottom: 8px;
     box-sizing: border-box;
