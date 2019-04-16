@@ -1,15 +1,15 @@
-.sidebar {
-    flex-basis: 20%;
+.sidebar .nav__list {
+    display: flex;
 }
 .nav__item {
     margin-bottom: 20px;
 }
 .nav__item a {
-    color: #ec1e79;
+    color: #ffffff;
 }
 .nav__link {
     position: relative;
-    display: block;
+    display: inline-block;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -76,10 +76,9 @@
 .nav__link:hover:after {
     opacity: 1;
   }
-.nav__item--active a {
-    color: #000;
-    filter: grayscale(100%)
-}
+  .nav .nav__item--active .nav__link {
+    color: #ec1e79;
+  }
 .nav__link:hover {
-    color: #000;
+    color: #ec1e79;
 }
