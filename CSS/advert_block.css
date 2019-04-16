@@ -1,18 +1,18 @@
 .advert {
     background-image: url('../img/Slice_1.png');
-}
+}  
 .container--advert-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 250px;
+    display: block;
 }
 .advert__text {
-    color: #ffffff;
-    font-family: "Gotham Pro";
+    color: white;
+    font-family: "gothempro", sans-serif;
+    font-weight: normal;
+    text-align: center;
     font-size: 18px;
-    font-weight: 300;
-    line-height: 30px;
-    padding: 50px 250px;
+    line-height: 34px;
+    padding: 0;
 }
 .advert__text-sale {
     color: #ec1e79;
