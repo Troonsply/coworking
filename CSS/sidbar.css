@@ -65,26 +65,27 @@
     background-position: -51px -5px;
 }
 
-.nav__link--direction:before {
-    width: 20px;
-    height: 18px;
-    background-position: -342px -5px;
-}
 .nav__link--direction:after  {
     width: 20px;
     height: 18px;
     background-position: -371px -5px;
     opacity: 0;
 }
+.nav__link--direction:before {
+    width: 20px;
+    height: 18px;
+    background-position: -342px -5px;
+}
 .nav__link:hover:after {
     opacity: 1;
   }
-.nav__item--active .nav__link {
+  .nav__item--active .nav__link {
     color: black;
-}
-.nav__link:hover {
-    color: #000;
-}
+  }
+  
+  .nav__item--active .nav__link:before {
+    opacity: 1;
+  }
   
 .nav--header .nav__link:before, 
 .nav--header .nav__link:after {
