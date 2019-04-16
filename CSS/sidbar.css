@@ -114,6 +114,7 @@
   
   .nav--header .nav__item--active .nav__link {
     color: #ec1e79;
+    filter: inherit;
   }
   .nav--header .nav__link:hover {
     color: #ec1e79;
