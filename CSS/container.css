@@ -1,8 +1,5 @@
 .container {
-    margin: 0 auto;
-    width: 1100px;
-}
-.maincontent .container {
-    display: flex;
-    margin-top: 20px
+margin: 0 auto;
+width: 1100px; 
+display: flex; 
 }
