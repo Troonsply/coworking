@@ -35,11 +35,11 @@
     line-height: 25px;
     height: 100%;
 }
-.pagination__pages-link.active {
+.pagination__pages-link--active{
     color:#ffffff;
 }
 
-.pagination__pages-item.active {
+.pagination__pages-item--active {
     background-color: #27273e;
     border-radius: 3px;
     line-height: 25px; 
@@ -54,6 +54,6 @@
     color: #ec1e79;
     text-decoration: none;
 }
-.pagination__pages-item .active:hover {
+.pagination__pages-link--active:hover {
     color: #ffffff;
 }

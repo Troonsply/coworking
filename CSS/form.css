@@ -33,7 +33,7 @@ form {
 .form__label:last-child {
     margin-right: 0;
 }
-.form-field {
+.form__inpu {
     width: 100%;
     background: #ffffff;
     border:none;
@@ -41,13 +41,14 @@ form {
     height: 40px;
     padding: 0 5px;
 }
-.form-field::placeholder {
+.form__inpu::placeholder {
     color: #221f1f;
     opacity: 0.5;
 }
-.form__textarea {
+.form__input--textarea {
     resize: vertical;
     height: 90px;
+    width: 100%;
 }
 .form__radio {
     width: 100%;
@@ -90,7 +91,9 @@ form {
 .form__answer:checked +.form__radio-custom:after {
     opacity: 1;
 }
-   
+.form__answer:checked +.form__radio-custom {
+    border: 2px solid #ec1e79;
+}
 .form__answer:checked +.form__radio-custom +.form__radio-text {
    opacity: 1;
 }
@@ -112,4 +115,10 @@ form {
     display: flex;
     justify-content: flex-end;
     margin-left: 340px;
+}
+.form__button:hover {
+    background-color: #ec1e79;
+}
+.form__input:focus {
+    border: 2px #003fff;
 }

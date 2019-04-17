@@ -30,9 +30,7 @@
                 <div class="container">
                     <aside class="aside">
                         <div class="advert">
-                            <div class="container container--advert-block">
-                                <p class="advert__text">Для наших новых клиентов мы предлагаем <span class="advert__text-sale">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p>
-                            </div>
+                            <p class="advert__text">Для наших новых клиентов мы предлагаем <span class="advert__text-sale">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p>
                         </div>
                         <div class="network">
                             <h3 class="network__contacts">Наши социальные сети</h3>
@@ -56,21 +54,19 @@
                         </div>
                     </aside>
                     <main class="main">
-                        <aside class="sidebar">
-                            <nav class="nav">
-                                <ul class="nav__list">
-                                    <li class="nav__item">
-                                        <a href="main.html" class="nav__link nav__link--main">Главная</a>
-                                    </li>
-                                    <li class="nav__item nav__item--active">
-                                        <a class="nav__link nav__link--star">Отзывы</a>
-                                    </li>
-                                    <li class="nav__item">
-                                        <a href="prices.html" class="nav__link nav__link--direction">Тарифы</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </aside>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="main.html" class="nav__link nav__link--main">Главная</a>
+                                </li>
+                                <li class="nav__item nav__item--active">
+                                    <a class="nav__link nav__link--star">Отзывы</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="prices.html" class="nav__link nav__link--direction">Тарифы</a>
+                                </li>
+                            </ul>
+                        </nav>
                         <section class="previews">
                             <h1 class="title">Отзывы</h1>
                             <ul class="previews__list">
@@ -120,10 +116,10 @@
                             <span class="pagination__display">Страницы 1 из 7</span>
                                 <ul class="pagination__pages">
                                     <li class="pagination__pages-item">
-                                        <a class="pagination__prev inactive"><</a>
+                                        <a class="pagination__prev"><</a>
                                     </li>
-                                    <li class="pagination__pages-item active">
-                                        <a class="pagination__pages-link active">1</a>
+                                    <li class="pagination__pages-item pagination__pages-item--active">
+                                        <a class="pagination__pages-link pagination__pages-link--active">1</a>
                                     </li>
                                     <li class="pagination__pages-item">
                                         <a href="#" class="pagination__pages-link">2</a>
@@ -149,46 +145,46 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="form">
+                            <form action="" class="form__tag">
+                                <h2 class="form__title">Оставить отзыв</h2>
+                                <div class="form__row">
+                                    <label class="form__label">
+                                        <div class="form__label-title"> Ваше имя</div>
+                                        <input type="text" class="form__input " id="name" placeholder="Андрей">
+                                    </label>
+                                    <label class="form__label">
+                                        <div class="form__label-title"> Ссылка на профиль VK</div>
+                                        <input type="text" class="form__input" id="name" placeholder="vk.com/example">
+                                    </label>
+                                </div>
+                                <div class="form__row">
+                                    <label class="form__label">
+                                        <div class="form__label-title"> Текст отзыва</div>
+                                        <textarea name="" placeholder="Мне понравилось" class=" form__input form__input--textarea"></textarea>
+                                    </label>
+                                </div>
+                                <div class="form__radio">
+                                    <div class="form__label-title">Отображать фото в отзыве?</div>
+                                        <label class="form__radio-btn" tabindex="0">
+                                            <input class="form__answer" type="radio" name="photo" value="yes" checked>
+                                            <div class="form__radio-custom"></div>
+                                            <div class="form__radio-text">Да</div>
+                                        </label>
+                                        <label class="form__radio-btn" tabindex="0">
+                                            <input class="form__answer" type="radio" name="photo" value="no" tabindex="0">
+                                            <div class="form__radio-custom"></div>
+                                            <div class="form__radio-text">Нет</div>
+                                        </label>
+                                        <div class="form__buttons">
+                                            <button type="submit" class="form__button">ОТПРАВИТЬ</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </main>
                 </div>
-            </div>
-            <div class="form">
-                <form action="" class="form__tag">
-                    <h2 class="form__title">Оставить отзыв</h2>
-                    <div class="form__row">
-                        <label class="form__label">
-                            <div class="form__label-title"> Ваше имя</div>
-                            <input type="text" class="form__input form-field" id="name" placeholder="Андрей">
-                        </label>
-                        <label class="form__label">
-                            <div class="form__label-title"> Ссылка на профиль VK</div>
-                            <input type="text" class="form__input form-field" id="name" placeholder="vk.com/example">
-                        </label>
-                    </div>
-                    <div class="form__row">
-                        <label class="form__label">
-                            <div class="form__label-title"> Текст отзыва</div>
-                            <textarea name="" placeholder="Мне понравилось" class="form__textarea form-field"></textarea>
-                        </label>
-                    </div>
-                    <div class="form__radio">
-                        <div class="form__label-title">Отображать фото в отзыве?</div>
-                            <label class="form__radio-btn" tabindex="0">
-                                <input class="form__answer" type="radio" name="photo" value="yes" checked>
-                                <div class="form__radio-custom"></div>
-                                <div class="form__radio-text">Да</div>
-                            </label>
-                            <label class="form__radio-btn" tabindex="0">
-                                <input class="form__answer" type="radio" name="photo" value="no" tabindex="0">
-                                <div class="form__radio-custom"></div>
-                                <div class="form__radio-text">Нет</div>
-                            </label>
-                            <div class="form__buttons">
-                                <button type="submit" class="form__button">ОТПРАВИТЬ</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
             </div>
             <footer class="footer">
                 <div class="container container--flex">

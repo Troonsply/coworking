@@ -1,8 +1,10 @@
 .aside {
     display: flex;
+    width: 22%;
     flex-direction: column;
     align-items: center;
     color: black;
+    margin-right: 10px;
 }
 .feature {
     text-align: center;
