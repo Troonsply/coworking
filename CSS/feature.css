@@ -1,10 +1,8 @@
 .aside {
-display: flex;
-width: 22%;
-flex-direction: column;
-align-items: center;
-color: black;
-margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
 }
 .feature {
     text-align: center;
@@ -21,13 +19,7 @@ margin-right: 10px;
     color: #212121;
     text-transform: uppercase;
 }
-.title--tarif {
-    font-family: "Gotham Pro";
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    text-transform: uppercase;
-}
+
 .feature__list {
     font-size: 18px;
     line-height: 30px;

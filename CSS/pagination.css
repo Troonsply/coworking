@@ -51,12 +51,9 @@
     margin-right:0;
 }
 .pagination__pages-link:hover {
-    background-color: #27273e;
-    border-radius: 3px;
-    line-height: 25px; 
-    text-align: center;
-    padding-left: 7px;
-    padding-right: 7px;
-    color: #ffffff;
+    color: #ec1e79;
     text-decoration: none;
+}
+.pagination__pages-item .active:hover {
+    color: #ffffff;
 }
