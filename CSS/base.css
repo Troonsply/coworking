@@ -30,7 +30,7 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-.title {
+h1 {
     font-size: 49px;
     line-height: 38px;
     font-family: "Gotham Pro";
