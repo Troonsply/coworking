@@ -40,6 +40,26 @@ h1 {
     padding: 0;
     text-align: left;
 }
+h2 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    margin-bottom: 45px;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
+h3 {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    margin-bottom: 45px;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
 img {
 display: block;
 }
