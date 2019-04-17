@@ -1,3 +1,6 @@
+.maincontent {
+    flex: 1;
+}
 .main {
     flex-basis: 80%;
 }
