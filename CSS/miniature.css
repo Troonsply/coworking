@@ -30,13 +30,12 @@
 .miniature {
     animation: minianimation 1s forwards;
 }
+
 .picture {
+    padding: 10px 5px;
     margin-bottom: 30px;
 }
-.picture__link {
-    box-sizing: border-box;
-    padding: 0 0 0 20px;
-}
+
 .picture__link--logo {
     width: 161px;
     height: 119px;
@@ -51,7 +50,7 @@
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
-    padding: 13px 20px;
+    padding: 13px 22px;
     margin: 0 auto;
     cursor: pointer;
     transition: .5s;
