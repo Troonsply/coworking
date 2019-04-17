@@ -31,11 +31,10 @@
     animation: minianimation 1s forwards;
 }
 
-.picture {
-    padding: 10px 5px;
+.picture__link {
+    display: block;
     margin-bottom: 30px;
 }
-
 .picture__link--logo {
     width: 161px;
     height: 119px;
@@ -50,7 +49,7 @@
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
-    padding: 13px 22px;
+    padding: 13px 15px;
     margin: 0 auto;
     cursor: pointer;
     transition: .5s;
