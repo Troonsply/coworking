@@ -1,9 +1,9 @@
 .nav__list {
     display: flex;
-    padding-right: 45px;
+    padding-top: 7px;
 }
 .nav__item {
-    margin-left: 100px;
+    margin-left: 83px;
 }
 .nav--header .nav__item {
     color: #ffffff;
@@ -22,14 +22,11 @@
     position: relative;
 }
 .nav--header .nav__link {
-    width: 68px;
-    height: 9px;
     color: #ffffff;
     font-family: "Gotham Pro";
     font-size: 12px;
     font-weight: 700;
     line-height: 54px;
-    padding-left: 35px;
     text-transform: uppercase;
     transition: 1s;
 }
