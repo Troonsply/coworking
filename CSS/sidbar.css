@@ -1,5 +1,6 @@
 .nav__list {
     display: flex;
+    padding-right: 45px;
 }
 .nav__item {
     margin-left: 100px;
