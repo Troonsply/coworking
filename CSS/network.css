@@ -30,12 +30,12 @@
     text-align: center;
     line-height: 25px;
     height: 100%;
-    background-image: url('../img/spritsheet.png');
+    background-image: url('../img/spritesheet.png');
 }
 .network__link-vk {
     width: 12px;
     height: 7px;
-    background-position: -320px -5px;
+    background-position: -233px -5px;
 }
 .network__link-fb {
     width: 6px;
@@ -45,17 +45,17 @@
 .network__link-google {
     width: 15px;
     height: 9px;
-    background-position: -118px -5px;
+    background-position: -111px -5px;
 }
 .network__link-twitter {
     width: 11px;
     height: 9px;
-    background-position: -299px -5px;
+    background-position: -212px -5px;
 }
 .network__link-mail {
     width: 12px;
     height: 9px;
-    background-position: -143px -5px;
+    background-position: -136px -5px;
 }
 .network__item:hover {
     width:20px;

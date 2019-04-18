@@ -29,12 +29,12 @@
     text-transform: uppercase;
     transition: 1s;
 }
-.nav__link:before, .nav__link:after {
+.nav__link:before {
     content: "";
     position: absolute;
     top: -5px;
     left: -5px;
-    background-image: url('../img/spritsheet.png');
+    background-image: url('../img/spritesheet.png');
     background-repeat: no-repeat;
     transition: 1s;
 }
@@ -73,7 +73,7 @@
 
 .nav--header .nav__link:before, 
 .nav--header .nav__link:after {
-    background-image: url('../img/spritesheet (3).png');
+    background-image: url('../img/spritesheet.png');
   }
 .nav--header .nav__link--main:after {
     width: 17px;
@@ -84,7 +84,7 @@
 .nav--header .nav__link--star:after {
     width: 20px;
     height: 18px;
-    background-position: -81px -5px;
+    background-position: -21px -5px;
     opacity: 0;
   }
 .nav--header .nav__link--star:before {
