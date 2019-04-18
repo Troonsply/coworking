@@ -1,6 +1,9 @@
 .maincontent {
     flex: 1;
 }
+.maincontent-previews {
+    margin-top: 30px;
+}
 .main {
     flex-basis: 80%;
 }
