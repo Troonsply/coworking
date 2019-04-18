@@ -31,8 +31,9 @@
 }
 .previews__headline {
     font-family: "Roboto";
-    font-weight: bold;
-    line-height: 21px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-size: 18px;
     text-align: left;
 }
 .previews__text {
