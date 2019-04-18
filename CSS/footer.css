@@ -4,11 +4,13 @@
     color: #ffffff;
     min-height: 77px;
     padding-top: 15px;
+    font-weight: 300;
 }
 .footer__text-note {
     margin: 0;
 }
 .footer__contacts {
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffffff;
+    font-weight: 700;
 }
