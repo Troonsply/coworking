@@ -1,11 +1,7 @@
-.advert {
+.info {
     background-image: url('../img/Slice_1.png');
-}  
-.container--advert-block {
-    width: 250px;
-    display: block;
 }
-.advert__text {
+.info__text {
     color: white;
     font-family: "gothempro", sans-serif;
     font-weight: normal;
@@ -14,7 +10,7 @@
     line-height: 34px;
     padding: 0;
 }
-.advert__text-sale {
+.info__text-sale {
     color: #ec1e79;
     font-family: "Gotham Pro";
     font-weight: 700;
