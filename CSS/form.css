@@ -33,7 +33,7 @@ form {
 .form__label:last-child {
     margin-right: 0;
 }
-.form__inpu {
+.form__input {
     width: 100%;
     background: #ffffff;
     border:none;
@@ -41,7 +41,7 @@ form {
     height: 40px;
     padding: 0 5px;
 }
-.form__inpu::placeholder {
+.form__input::placeholder {
     color: #221f1f;
     opacity: 0.5;
 }
