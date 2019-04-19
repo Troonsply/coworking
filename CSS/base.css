@@ -63,6 +63,10 @@ h3 {
 img {
 display: block;
 }
+
+adress {
+    display: block;
+}
 * {
     box-sizing: border-box;
 }
